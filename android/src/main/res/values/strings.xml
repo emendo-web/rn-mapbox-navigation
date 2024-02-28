@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sound">Sound</string>
+    <string name="overview">Overview</string>
+    <string name="recenter">Recenter</string>
+    <string name="set_route_signboard">Set route</string>
+    <string name="title_signboard">Signboard Example</string>
+    <string name="description_signboard">Demonstrates the use of signboard API.</string>
+</resources>

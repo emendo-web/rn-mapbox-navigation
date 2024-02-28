@@ -1,0 +1,72 @@
+# Npm specific
+integration-tests
+.git
+.gitignore
+
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IJ
+#
+.idea
+.gradle
+gradlew
+*.iml
+*.swp
+*.bat
+local.properties
+android/gradle/wrapper
+
+# node.js
+#
+node_modules/
+npm-debug.log.*
+
+# BUCK
+buck-out/
+\.buckd/
+android/app/libs
+android/keystores/debug.keystore
+
+# iOS
+ios/Pods
+ios/Podfile.lock
+Carthage
+
+# IDE
+.vscode/
+
+# Graphics
+*.png
+
+# Documentation
+docs/
+
+# Tests
+__tests__/
+
+# Expo plugin
+/plugin/src
+/plugin/jest.config.js
+/plugin/tsconfig.json
